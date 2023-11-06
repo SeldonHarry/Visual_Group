@@ -10,3 +10,6 @@ Github的仓库中仅有源代码
 ## Tired of Coding? Enjoying the Animations!
 + [Fate/HF III](http://10.80.169.169:4090/#s/9sNnwAwA)
 + [Fate/HF I](http://10.80.169.169:4090/#s/9v1ZzMSg)
+
+## Tired of Coding? Enjoying light novels!
++ [86](http://10.80.169.169:4090/#s/90cXIY0w)
