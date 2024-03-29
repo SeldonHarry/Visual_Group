@@ -1,0 +1,6 @@
+/sensor:
+  ros__parameters:
+    camera_name: camera_right
+    exposure_time: 5000
+    gain: 32.0
+    imu_usb_hid: 'USB VID:PID=0483:5740 SNR=35A4337F3237'

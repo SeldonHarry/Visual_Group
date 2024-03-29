@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Debug Image</title>
+</head>
+
+<body>
+    <h1>Debug Image</h1>
+    <img id="debug_img" alt="Debug Image">
+    <script>
+        function fetchAndDisplayImage() {
+            fetch('/node_img/update')
+                .then(response => response.json())
+                .then(data => {
+                    var img = document.getElementById('debug_img');
+                    img.src = 'data:image/jpeg;base64,' + data.img;
+                });
+        }
+        fetchAndDisplayImage();//加载初始图像
+        setInterval(fetchAndDisplayImage, 20);
+    </script>
+</body>
+
+</html>

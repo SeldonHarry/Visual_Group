@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/predictor_lib.dir/aim/aim_corrector.cpp.o"
+  "CMakeFiles/predictor_lib.dir/aim/aim_corrector.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/aim/detect_bullet.cpp.o"
+  "CMakeFiles/predictor_lib.dir/aim/detect_bullet.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/aim/do_reproj.cpp.o"
+  "CMakeFiles/predictor_lib.dir/aim/do_reproj.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/enemy/armor_identifier.cpp.o"
+  "CMakeFiles/predictor_lib.dir/enemy/armor_identifier.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/enemy/balance.cpp.o"
+  "CMakeFiles/predictor_lib.dir/enemy/balance.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/enemy/enemy_state.cpp.o"
+  "CMakeFiles/predictor_lib.dir/enemy/enemy_state.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/enemy/outpost_fixer.cpp.o"
+  "CMakeFiles/predictor_lib.dir/enemy/outpost_fixer.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/enemy_predictor/Stm32Shoot.cpp.o"
+  "CMakeFiles/predictor_lib.dir/enemy_predictor/Stm32Shoot.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/enemy_predictor/enemy_predictor.cpp.o"
+  "CMakeFiles/predictor_lib.dir/enemy_predictor/enemy_predictor.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/motion/armor_model.cpp.o"
+  "CMakeFiles/predictor_lib.dir/motion/armor_model.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/motion/cj_top4_model.cpp.o"
+  "CMakeFiles/predictor_lib.dir/motion/cj_top4_model.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/motion/cj_top_model.cpp.o"
+  "CMakeFiles/predictor_lib.dir/motion/cj_top_model.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/motion/enemy_model.cpp.o"
+  "CMakeFiles/predictor_lib.dir/motion/enemy_model.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/motion/top4_model.cpp.o"
+  "CMakeFiles/predictor_lib.dir/motion/top4_model.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/motion/top_model.cpp.o"
+  "CMakeFiles/predictor_lib.dir/motion/top_model.cpp.o.d"
+  "CMakeFiles/predictor_lib.dir/pnp/pnp.cpp.o"
+  "CMakeFiles/predictor_lib.dir/pnp/pnp.cpp.o.d"
+  "libpredictor_lib.pdb"
+  "libpredictor_lib.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/predictor_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

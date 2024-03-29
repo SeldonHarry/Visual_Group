@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>节点调试信息</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>节点调试信息</h1>
+    <a href="{{ url_for('index') }}"><button>返回首页</button></a>
+    <div id="nodeInfo"> </div>
+
+    <script>
+        function createTable(data, parentElem, level = 0) {
+            // 自定义函数，用于创建表格，在下面被不断调用
+            parentElem.innerHTML = '';
+            var table = document.createElement('table');
+            for (var key in data) {
+                var row = document.createElement('tr');
+                var cell1 = document.createElement('td');
+                var cell2 = document.createElement('td');
+                cell1.textContent = key;
+                if (typeof data[key] === 'object' && data[key] !== null) {
+                    cell2.appendChild(document.createTextNode(''));
+                    createTable(data[key], cell2, level + 1);
+                } else {
+                    cell2.textContent = data[key];
+                }
+                row.appendChild(cell1);
+                row.appendChild(cell2);
+                table.append(row)
+            }
+            parentElem.appendChild(table)
+        }
+
+        setInterval(function () {
+            fetch('/node_info/update')
+                .then(response => response.json())
+                .then(data => {
+                    // 获取容纳节点信息的<div>元素
+                    var div = document.getElementById('nodeInfo');
+                    for (var node_name in data) {
+                        // 获取所有包含<details>元素的HTML元素
+                        detailsElements = div.getElementsByTagName('details');
+                        flag = false;
+                        for (details of detailsElements) {
+                            // 获取<summary>元素
+                            summary = details.getElementsByTagName('summary')[0];
+                            if (summary && summary.textContent === node_name) {
+                                // 获取<details>元素的最后一个子元素
+                                p = details.lastChild;
+                                // 创建表格并将其添加到<p>元素中
+                                createTable(data[node_name], p);
+                                flag = true;
+                            }
+                            console.log('skip creating.')
+                        }
+                        if (!flag) {
+                            // 创建<details>元素
+                            details = document.createElement('details');
+                            // 创建<summary>元素
+                            summary = document.createElement('summary');
+                            // 设置<summary>元素的文本内容
+                            summary.textContent = node_name;
+                            // 将<summary>元素添加到<details>元素中
+                            details.appendChild(summary);
+                            // 设置<details>元素为展开状态
+                            details.setAttribute('open', '');
+                            // 创建<p>元素，<p>为html的标签，用来表示段落
+                            p = document.createElement('p');
+                            // 创建表格并将其添加到<p>元素中
+                            createTable(data[node_name], p);
+                            // 将<p>元素添加到<details>元素中
+                            details.appendChild(p);
+                            // 将<details>元素添加到<div>元素中
+                            div.appendChild(details);
+                            console.log('creating.')
+                        }
+                    }
+                })
+        }, 100);
+    </script>
+</body>
+
+</html>

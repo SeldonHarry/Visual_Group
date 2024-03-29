@@ -1,0 +1,39 @@
+# 比赛信息数据包(电控->视觉) id-0x13
+uint8 robot_id
+
+uint8 remain_hp
+
+uint8 max_hp
+
+# 全体机器人血量
+uint16 red_1_robot_hp
+
+uint16 red_2_robot_hp
+
+uint16 red_3_robot_hp
+
+uint16 red_4_robot_hp
+
+uint16 red_5_robot_hp
+
+uint16 red_7_robot_hp
+
+uint16 red_outpost_hp
+
+uint16 red_base_hp
+
+uint16 blue_1_robot_hp
+
+uint16 blue_2_robot_hp
+
+uint16 blue_3_robot_hp
+
+uint16 blue_4_robot_hp
+
+uint16 blue_5_robot_hp
+
+uint16 blue_7_robot_hp
+
+uint16 blue_outpost_hp
+
+uint16 blue_base_hp

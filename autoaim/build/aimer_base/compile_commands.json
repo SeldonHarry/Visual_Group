@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/aimer_base",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -Daimer_base_EXPORTS -I/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/aimer_base/./include -I/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/aimer_base/include -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3  -O3 -march=native -flto -fPIC -std=gnu++17 -o CMakeFiles/aimer_base.dir/src/math.cpp.o -c /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/aimer_base/src/math.cpp",
+  "file": "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/aimer_base/src/math.cpp"
+}
+]

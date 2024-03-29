@@ -1,0 +1,192 @@
+[0.008s] Invoking command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug': AMENT_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug -DCMAKE_INSTALL_PREFIX=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug
+[0.012s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.068s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.084s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.085s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.088s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.102s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.135s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.135s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.291s] -- Found my_interfaces: 0.0.0 (/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/share/my_interfaces/cmake)
+[0.445s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.479s] [0mCMake Deprecation Warning at serial/CMakeLists.txt:1 (cmake_minimum_required):
+[0.479s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.479s]   CMake.
+[0.479s] 
+[0.479s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.479s]   CMake that the project does not need compatibility with older versions.
+[0.479s] 
+[0.479s] [0m
+[0.481s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.520s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.520s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/>
+[0.520s] -- Configured cppcheck exclude dirs and/or files: 
+[0.521s] -- Added test 'lint_cmake' to check CMake code style
+[0.522s] -- Added test 'uncrustify' to check C / C++ code style
+[0.522s] -- Configured uncrustify additional arguments: 
+[0.522s] -- Added test 'xmllint' to check XML markup files
+[0.523s] -- Configuring done
+[0.538s] -- Generating done
+[0.540s] -- Build files have been written to: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug
+[0.546s] Invoked command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug' returned '0': AMENT_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug -DCMAKE_INSTALL_PREFIX=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug
+[0.547s] Invoking command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug': AMENT_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug -- -j20 -l20
+[0.562s] [ 10%] [32mBuilding CXX object minipc_comm/serial_comm/CMakeFiles/serial_comm.dir/src/connect.cpp.o[0m
+[0.562s] [ 10%] [32mBuilding CXX object serial/CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.562s] [ 15%] [32mBuilding CXX object serial/CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.562s] [ 21%] [32mBuilding CXX object minipc_comm/serial_comm/CMakeFiles/serial_comm.dir/src/crc.cpp.o[0m
+[0.562s] [ 26%] [32mBuilding CXX object CMakeFiles/io_debug_node.dir/rclcpp_components/node_main_io_debug_node.cpp.o[0m
+[0.563s] [ 36%] [32mBuilding CXX object serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.563s] [ 36%] [32mBuilding CXX object CMakeFiles/coreio_node.dir/rclcpp_components/node_main_coreio_node.cpp.o[0m
+[0.564s] [ 42%] [32mBuilding CXX object minipc_comm/serial_comm/CMakeFiles/serial_comm.dir/src/fifo_buffer.cpp.o[0m
+[0.595s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/serial_comm/src/connect.cpp:[m[K In member function ‘[01m[Kbool Connect::check()[m[K’:
+[0.595s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/serial_comm/src/connect.cpp:27:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.595s]    27 |   if ([01;35m[KgetTick() - last_tick_ > timeout_[m[K) {
+[0.595s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[0.609s] [ 47%] [32m[1mLinking CXX static library libserial_comm.a[0m
+[0.663s] [ 47%] Built target serial_comm
+[0.669s] [ 52%] [32mBuilding CXX object minipc_comm/CMakeFiles/minipc_comm.dir/minipc_comm.cpp.o[0m
+[0.670s] [ 57%] [32mBuilding CXX object minipc_comm/CMakeFiles/minipc_comm.dir/robot_comm_middleware.cpp.o[0m
+[0.710s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[0.710s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.710s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[0.710s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.710s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[0.710s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[0.710s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[0.712s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[0.712s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[0.712s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[0.712s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[0.764s] In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot_comm_middleware.hpp:7[m[K,
+[0.764s]                  from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot_comm_middleware.cpp:1[m[K:
+[0.764s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:43:34:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[0.764s]    43 |     ::EnemyColor enemy_color : 1 [01;35m[K=[m[K ::EnemyColor::BLUE; // 这是bit
+[0.764s]       |                                  [01;35m[K^[m[K
+[0.764s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:44:31:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[0.764s]    44 |     uint8_t is_big_energy : 1 [01;35m[K=[m[K false;
+[0.764s]       |                               [01;35m[K^[m[K
+[0.764s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:45:36:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[0.764s]    45 |     ::ProgramMode program_mode : 6 [01;35m[K=[m[K ::ProgramMode::NOT_RECEIVED; // 1+1+6共1byte //此处修改了，为了debug，默认是NOT_RECEIVED
+[0.764s]       |                                    [01;35m[K^[m[K
+[0.817s] [ 63%] [32m[1mLinking CXX static library libserial.a[0m
+[0.863s] [ 63%] Built target serial
+[1.926s] In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.cpp:21[m[K:
+[1.926s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.hpp:[m[K In constructor ‘[01m[KMiniPCComm::MiniPCComm()[m[K’:
+[1.926s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.hpp:104:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KMiniPCComm::unpack_step_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.926s]   104 |     } [01;35m[Kunpack_step_[m[K;
+[1.926s]       |       [01;35m[K^~~~~~~~~~~~[m[K
+[1.926s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.hpp:61:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KConnect MiniPCComm::general_connect_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.926s]    61 |     Connect [01;35m[Kgeneral_connect_[m[K;
+[1.926s]       |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.926s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.cpp:42:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.926s]    42 | [01;35m[KMiniPCComm[m[K::MiniPCComm():
+[1.926s]       | [01;35m[K^~~~~~~~~~[m[K
+[2.197s] [ 68%] [32m[1mLinking CXX static library libminipc_comm.a[0m
+[2.242s] [ 68%] Built target minipc_comm
+[2.248s] [ 73%] [32mBuilding CXX object CMakeFiles/io_debug.dir/src/io_debug.cpp.o[0m
+[2.248s] [ 78%] [32mBuilding CXX object CMakeFiles/coreio.dir/src/coreio.cpp.o[0m
+[2.318s] [ 84%] [32m[1mLinking CXX executable io_debug_node[0m
+[2.323s] [ 89%] [32m[1mLinking CXX executable coreio_node[0m
+[2.402s] [ 89%] Built target io_debug_node
+[2.402s] [ 89%] Built target coreio_node
+[2.836s] In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:30[m[K:
+[2.837s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:43:34:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[2.837s]    43 |     ::EnemyColor enemy_color : 1 [01;35m[K=[m[K ::EnemyColor::BLUE; // 这是bit
+[2.837s]       |                                  [01;35m[K^[m[K
+[2.837s] In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:30[m[K:
+[2.837s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:43:34:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[2.837s]    43 |     ::EnemyColor enemy_color : 1 [01;35m[K=[m[K ::EnemyColor::BLUE; // 这是bit
+[2.837s]       |                                  [01;35m[K^[m[K
+[2.837s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:44:31:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[2.837s]    44 |     uint8_t is_big_energy : 1 [01;35m[K=[m[K false;
+[2.837s]       |                               [01;35m[K^[m[K
+[2.837s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:44:31:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[2.837s]    44 |     uint8_t is_big_energy : 1 [01;35m[K=[m[K false;
+[2.837s]       |                               [01;35m[K^[m[K
+[2.837s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:45:36:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[2.837s]    45 |     ::ProgramMode program_mode : 6 [01;35m[K=[m[K ::ProgramMode::NOT_RECEIVED; // 1+1+6共1byte //此处修改了，为了debug，默认是NOT_RECEIVED
+[2.837s]       |                                    [01;35m[K^[m[K
+[2.837s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:45:36:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+[2.837s]    45 |     ::ProgramMode program_mode : 6 [01;35m[K=[m[K ::ProgramMode::NOT_RECEIVED; // 1+1+6共1byte //此处修改了，为了debug，默认是NOT_RECEIVED
+[2.837s]       |                                    [01;35m[K^[m[K
+[3.495s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.495s]                  from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:17[m[K:
+[3.495s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:[m[K In member function ‘[01m[Kbool coreio::MiniPcNode::SerialAutoConnect(serial::Serial&, const string&)[m[K’:
+[3.495s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:227:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   227 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:229:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   229 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.496s]                  from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:17[m[K:
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:[m[K In member function ‘[01m[Kbool minipc::MiniPcNode::SerialAutoConnect(serial::Serial&, const string&)[m[K’:
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:258:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   258 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:260:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   260 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:[m[K In member function ‘[01m[Kvoid coreio::MiniPcNode::robotCommTx(serial::Serial&, std::shared_ptr<MiniPCComm>)[m[K’:
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:251:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   251 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:255:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   255 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:[m[K In member function ‘[01m[Kvoid minipc::MiniPcNode::robotCommTx(serial::Serial&, std::shared_ptr<MiniPCComm>)[m[K’:
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:285:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   285 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.496s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:289:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.496s]   289 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.496s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.500s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:[m[K In member function ‘[01m[Kvoid minipc::MiniPcNode::robotCommRxThread_loop(serial::Serial&, std::shared_ptr<MiniPCComm>)[m[K’:
+[3.500s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:439:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.500s]   439 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.500s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.500s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/io_debug.cpp:443:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.500s]   443 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.500s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.501s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:[m[K In member function ‘[01m[Kvoid coreio::MiniPcNode::robotCommRxThread_loop(serial::Serial&, std::shared_ptr<MiniPCComm>)[m[K’:
+[3.501s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:427:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.501s]   427 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.501s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.501s] [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio.cpp:431:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.501s]   431 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+[3.501s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.930s] [ 94%] [32m[1mLinking CXX shared library libio_debug.so[0m
+[6.961s] [100%] [32m[1mLinking CXX shared library libcoreio.so[0m
+[7.210s] [100%] Built target io_debug
+[7.223s] [100%] Built target coreio
+[7.227s] Invoked command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug' returned '0': AMENT_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug -- -j20 -l20
+[7.247s] Invoking command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug': AMENT_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug
+[7.249s] -- Install configuration: ""
+[7.249s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/libio_debug.so
+[7.253s] -- Set runtime path of "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/libio_debug.so" to ""
+[7.253s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/libcoreio.so
+[7.257s] -- Set runtime path of "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/libcoreio.so" to ""
+[7.257s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/io_debug/io_debug_node
+[7.258s] -- Set runtime path of "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/io_debug/io_debug_node" to ""
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/io_debug/coreio_node
+[7.258s] -- Set runtime path of "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/io_debug/coreio_node" to ""
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/ament_index/resource_index/package_run_dependencies/io_debug
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/ament_index/resource_index/parent_prefix_path/io_debug
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/environment/ament_prefix_path.sh
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/environment/ament_prefix_path.dsv
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/environment/path.sh
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/environment/path.dsv
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/local_setup.bash
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/local_setup.sh
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/local_setup.zsh
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/local_setup.dsv
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/package.dsv
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/ament_index/resource_index/packages/io_debug
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/ament_index/resource_index/rclcpp_components/io_debug
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/cmake/io_debugConfig.cmake
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/cmake/io_debugConfig-version.cmake
+[7.258s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/share/io_debug/package.xml
+[7.259s] -- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/io_debug/lib/libserial.a
+[7.260s] Invoked command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug' returned '0': AMENT_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/my_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/io_debug

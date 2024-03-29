@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_aim_shoot_msg_board2_pc_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_aim_shoot_msg_board2_pc_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_aim_shoot_msg_pc2_board_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_aim_shoot_msg_pc2_board_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_d_pack_identifier_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_d_pack_identifier_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_detected_armor_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_detected_armor_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_detection_result_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_detection_result_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_game_status_msg_board2_pc_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_game_status_msg_board2_pc_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_game_status_pc2_board_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_game_status_pc2_board_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_general_msg_board2_pc_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_general_msg_board2_pc_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_general_msg_pc2_board_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_general_msg_pc2_board_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_navigation_board2_pc_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_navigation_board2_pc_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_navigation_pc2_board_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_navigation_pc2_board_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_pc_work_mode_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_pc_work_mode_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_reload_flag_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_reload_flag_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_robot_cmd_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_robot_cmd_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_robot_status_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_robot_status_s.c.o.d"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_debug_info_s.c.o"
+  "CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_debug_info_s.c.o.d"
+  "rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.pdb"
+  "rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/my_interfaces__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

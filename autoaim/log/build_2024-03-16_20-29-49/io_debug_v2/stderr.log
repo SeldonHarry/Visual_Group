@@ -1,0 +1,78 @@
+[0mCMake Deprecation Warning at serial/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/connect.cpp:[m[K In member function ‘[01m[Kbool Connect::check()[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/connect.cpp:27:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   27 |   if ([01;35m[KgetTick() - last_tick_ > timeout_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot_comm_middleware.hpp:7[m[K,
+                 from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot_comm_middleware.cpp:1[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:43:34:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+   43 |     ::EnemyColor enemy_color : 1 [01;35m[K=[m[K ::EnemyColor::BLUE; // 这是bit
+      |                                  [01;35m[K^[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:44:31:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+   44 |     uint8_t is_big_energy : 1 [01;35m[K=[m[K false;
+      |                               [01;35m[K^[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:45:36:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+   45 |     ::ProgramMode program_mode : 6 [01;35m[K=[m[K ::ProgramMode::NOT_RECEIVED; // 1+1+6共1byte //此处修改了，为了debug，默认是NOT_RECEIVED
+      |                                    [01;35m[K^[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+      |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/serial/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+      |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.cpp:21[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.hpp:[m[K In constructor ‘[01m[KMiniPCComm::MiniPCComm()[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.hpp:104:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KMiniPCComm::unpack_step_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  104 |     } [01;35m[Kunpack_step_[m[K;
+      |       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.hpp:61:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KConnect MiniPCComm::general_connect_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   61 |     Connect [01;35m[Kgeneral_connect_[m[K;
+      |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/minipc_comm.cpp:42:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   42 | [01;35m[KMiniPCComm[m[K::MiniPCComm():
+      | [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:30[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:43:34:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+   43 |     ::EnemyColor enemy_color : 1 [01;35m[K=[m[K ::EnemyColor::BLUE; // 这是bit
+      |                                  [01;35m[K^[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:44:31:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+   44 |     uint8_t is_big_energy : 1 [01;35m[K=[m[K false;
+      |                               [01;35m[K^[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/minipc_comm/robot.hpp:45:36:[m[K [01;35m[Kwarning: [m[Kdefault member initializers for bit-fields only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+   45 |     ::ProgramMode program_mode : 6 [01;35m[K=[m[K ::ProgramMode::NOT_RECEIVED; // 1+1+6共1byte //此处修改了，为了debug，默认是NOT_RECEIVED
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:17[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:[m[K In member function ‘[01m[Kbool minipc::MiniPcNode::SerialAutoConnect(serial::Serial&, const string&)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:258:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  258 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:260:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  260 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:[m[K In member function ‘[01m[Kvoid minipc::MiniPcNode::robotCommTx(serial::Serial&, std::shared_ptr<MiniPCComm>)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:285:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  285 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:289:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  289 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:[m[K In member function ‘[01m[Kvoid minipc::MiniPcNode::robotCommRxThread_loop(serial::Serial&, std::shared_ptr<MiniPCComm>)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:439:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  439 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/io_debug/src/coreio_v2.cpp:443:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  443 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K"[ERROR] (robot_io_usb) {}\n"[m[K, e.what());
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

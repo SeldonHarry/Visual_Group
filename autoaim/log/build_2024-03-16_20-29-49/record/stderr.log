@@ -1,0 +1,8 @@
+In file included from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/record/src/record.cpp:32[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/record/src/record.cpp:[m[K In member function ‘[01m[Kvoid recorder::RecordNode::img_subcallback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/record/src/record.cpp:222:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcam_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  222 |     [01;35m[Kconst sensor_msgs::msg::CameraInfo::ConstSharedPtr cam_info[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

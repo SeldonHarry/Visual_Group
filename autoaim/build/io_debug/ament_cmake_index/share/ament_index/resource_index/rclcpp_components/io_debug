@@ -1,0 +1,2 @@
+minipc::MiniPcNode;lib/libio_debug.so
+coreio::MiniPcNode;lib/libcoreio.so

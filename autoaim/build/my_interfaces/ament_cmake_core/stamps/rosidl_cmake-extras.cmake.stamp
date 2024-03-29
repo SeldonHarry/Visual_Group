@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(my_interfaces_IDL_FILES "msg/AimShootMsgBoard2PC.idl;msg/AimShootMsgPC2Board.idl;msg/GameStatusPC2Board.idl;msg/GameStatusMsgBoard2PC.idl;msg/GeneralMsgBoard2PC.idl;msg/GeneralMsgPC2Board.idl;msg/DPackIdentifier.idl;msg/NavigationBoard2PC.idl;msg/NavigationPC2Board.idl;msg/PCWorkMode.idl;msg/RobotCmd.idl;msg/RobotStatus.idl;msg/DetectedArmor.idl;msg/DetectionResult.idl;msg/ReloadFlag.idl;srv/DebugInfo.idl")
+set(my_interfaces_INTERFACE_FILES "msg/AimShootMsgBoard2PC.msg;msg/AimShootMsgPC2Board.msg;msg/GameStatusPC2Board.msg;msg/GameStatusMsgBoard2PC.msg;msg/GeneralMsgBoard2PC.msg;msg/GeneralMsgPC2Board.msg;msg/DPackIdentifier.msg;msg/NavigationBoard2PC.msg;msg/NavigationPC2Board.msg;msg/PCWorkMode.msg;msg/RobotCmd.msg;msg/RobotStatus.msg;msg/DetectedArmor.msg;msg/DetectionResult.msg;msg/ReloadFlag.msg;srv/DebugInfo.srv;srv/DebugInfo_Request.msg;srv/DebugInfo_Response.msg")

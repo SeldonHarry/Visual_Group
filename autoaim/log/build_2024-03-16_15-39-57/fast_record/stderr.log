@@ -1,0 +1,21 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_subscriber.hpp:36[m[K,
+                 from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:23[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:[m[K In member function ‘[01m[Kvoid recorder::RecorderNode::init_node()[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:106:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<long int>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  106 |         RCLCPP_WARN(this->get_logger(),[01;35m[K"Use dafault duraiton: %d ."[m[K,[32m[KRECORD_DURATION[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K|[m[K
+      |                                                                     [32m[Kstd::chrono::duration<long int>[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:106:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  106 |         RCLCPP_WARN(this->get_logger(),"Use dafault duraiton: [01;36m[K%d[m[K .",RECORD_DURATION);
+      |                                                               [01;36m[K~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Kint[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:[m[K In member function ‘[01m[Kvoid recorder::RecorderNode::img_subcallback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:166:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcam_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  166 |     [01;35m[Kconst sensor_msgs::msg::CameraInfo::ConstSharedPtr cam_info[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

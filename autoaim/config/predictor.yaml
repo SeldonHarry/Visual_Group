@@ -1,0 +1,170 @@
+/enemy_predictor:
+  ros__parameters:
+    ec:
+      using-angle-compensate: false
+    launching-mechanism:
+      bullet:
+        frontal-area: 0.0013854423366
+        mass: 0.041
+        radius: 0.0085
+        resistance-k: 0.022928514188
+      camera-to-barrel-x: 0.0
+      camera-to-barrel-y: -0.055
+    auto-aim:
+      aim-corrector:
+        correction:
+          enabled: false
+        error:
+          r: 1.0
+        sample:
+          enabled: false
+      aim-offset:
+        pitch: 0.0
+        yaw: 0.0
+      armor-model:
+        ekf:
+          q:
+            v: 100.0
+            x: 0.01
+          r:
+            distance-at-1m: 50.0
+            pitch: 1.5
+            yaw: 1.0
+        passive-mode:
+          aim:
+            max-error: 0.5
+            tracking-range: 1.0
+        target-area-ratio: 0.6
+      balance-judger:
+        balance-confidence-ramp-time: 15.0
+        non-balance-confidence-ramp-time: 0.2
+      cj-top-model:
+        aim:
+          angle-to-rotate-time:
+            a: 0.00179
+            b: 0.093
+          max-tracking-error: 2.0
+          top0:
+            max-orientation-angle:
+              armors-4: 58.8888
+              armors-other: 75.0
+            max-out-error: 1.8
+          top1:
+            activate-w: 90.0
+            deactivate-w: 60.0
+            max-orientation-angle: 0.0
+            max-out-error: 0.6
+          top2:
+            activate-w: 500.0
+            deactivate-w: 450.0
+            max-orientation-angle: 0.0
+            max-out-error: 1.8
+        credit-dt: 1.0
+        fix:
+          dz:
+            abs-max: 0.1
+          no-z-axis-motion: true
+          radius:
+            max: 0.3
+            min: 0.19
+          you-are-sure-that-the-outpost-will-not-move-in-a-continuous-observation: true
+        keep-tracking-area-ratio: 0.9
+        q:
+          orientation-yaw:
+            v:
+              in-1s: 280.0
+            x:
+              in-1s: 2.8
+          pos:
+            v:
+              in-1s: 2800.0
+            x:
+              in-1s: 2.8
+          r: 1.0
+        r:
+          dis:
+            at-1m: 25.888888
+          orientation-yaw:
+            double: 15.0
+            single: 30.0
+          pitch: 8.0
+          yaw: 8.0
+      cmd:
+        additional-predict-time: 0.06
+        send-yaw-v: false
+        yaw-v-is-radian: true
+      debug:
+        flask:
+          cube:
+            dis: 3.0
+            show: false
+            z: 0.0
+          map:
+            pixel-per-meter: 100.0
+          plane:
+            show: false
+            z: -1.0
+          plumbing: true
+        periodic-monitor:
+          period: 0.5
+      ec-simulator:
+        enabled: true
+        shoot-interval: 0.02
+      enemy-model:
+        infantry:
+          aim:
+            max-error: 2.0
+        max-num-updated: 2
+        old-sentry:
+          aim:
+            max-error: 3.0
+          passive-mode:
+            enabled: false
+        outpost:
+          top-orientation-fixer:
+            enabled: false
+      enemy-state:
+        infantry3-is-balance: false
+        infantry4-is-balance: false
+        infantry5-is-balance: false
+        manually-set-balance-infantry: true
+        new-armor-max-valid-distance: 10.0
+      ignore-enemy:
+        list:
+        - 100
+      latency:
+        control-to-fire: 0.02
+        send-to-control: -0.018
+      motion:
+        use-model: two-models
+      outpost-fixer:
+        active-lasting-time: 0.59233333
+        z-that-distinguishes-two-types: 0.16
+      pnp:
+        distance-fixer:
+          a2: 0.0
+      predict:
+        num-iterations: 2
+      top-model:
+        ab:
+          length:
+            max: 0.3
+            min: 0.19
+            r-at-1m: 1500.0
+          z:
+            abs-max: 0.05
+            r-at-1m: 400.0
+        active-w: 120.0
+        aim:
+          max-orientation-angle: 30.0
+          max-out-error: 0.8
+          max-swing-error: 3.0
+        center-r-at-1m: 16.0
+        double-angle-r: 50.0
+        inactive-w: 100.0
+        outpost:
+          center-update-max-angle: 10.0
+        radius-sampling-area-ratio: 0.6
+        single-angle-r: 110.0
+        top4:
+          active-rotate: 1

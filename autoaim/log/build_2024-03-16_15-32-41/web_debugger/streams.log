@@ -1,0 +1,22 @@
+[0.585s] Invoking command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/web_debugger': PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/prefix_override:/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/web_debugger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/web_debugger build --build-base /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/build install --record /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/install.log --single-version-externally-managed
+[0.753s] running egg_info
+[0.753s] writing ../../build/web_debugger/web_debugger.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/web_debugger/web_debugger.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/web_debugger/web_debugger.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/web_debugger/web_debugger.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/web_debugger/web_debugger.egg-info/top_level.txt
+[0.755s] reading manifest file '../../build/web_debugger/web_debugger.egg-info/SOURCES.txt'
+[0.755s] adding license file 'LICENSE'
+[0.755s] writing manifest file '../../build/web_debugger/web_debugger.egg-info/SOURCES.txt'
+[0.755s] running build
+[0.755s] running build_py
+[0.756s] running install
+[0.756s] running install_lib
+[0.756s] running install_data
+[0.757s] running install_egg_info
+[0.758s] removing '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/web_debugger/lib/python3.10/site-packages/web_debugger-0.0.0-py3.10.egg-info' (and everything under it)
+[0.758s] Copying ../../build/web_debugger/web_debugger.egg-info to /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/web_debugger/lib/python3.10/site-packages/web_debugger-0.0.0-py3.10.egg-info
+[0.758s] running install_scripts
+[0.771s] Installing web_debugger script to /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/web_debugger/lib/web_debugger
+[0.771s] writing list of installed files to '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/install.log'
+[0.786s] Invoked command in '/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/web_debugger' returned '0': PYTHONPATH=/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/prefix_override:/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/web_debugger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/web_debugger build --build-base /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/build install --record /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/web_debugger/install.log --single-version-externally-managed

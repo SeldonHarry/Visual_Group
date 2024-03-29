@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>参数编辑器</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/edit-param.css') }}">
+
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css"> -->
+    <script src="{{ url_for('static', filename='js/highlight.min.js') }}"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+    <h1>参数编辑器</h1>
+    <span><b>修改时注意，数据类型不能变嗷！比如 <code>2.0</code> 不能改成 <code>2</code>. 改完记得按右边更新按钮才会更新 👇🏻！</b></span>
+    <div class="container">
+        <div class="left-column">
+            <pre>
+            <code id="new-data" name="new-data" contenteditable="true">{{ data }}</code>
+            </pre>
+        </div>
+        <div class="right-column">
+            <button type="button" onclick="update_param()" style="padding: 10px;">更新参数 - 不点不更</button>
+            <br>
+
+            <textarea id="feedback-log" name="feedback-log" rows="30" cols="80" class="code-like"></textarea>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById("feedback-log").value = '如果试图更新参数后，此处没有任何反馈，则更新可能失败了。\n'
+
+        {
+            var update_cnt = 0;
+            function update_param() {
+                update_cnt += 1;
+                var new_data = document.getElementById("new-data").innerText;
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "/edit-param/post", true);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.onreadystatechange = function () {
+                    var feedback = document.getElementById("feedback-log");
+                    if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                        feedback.value += '[INFO] @edit-param.html: 成功发送了第 ' + String(update_cnt) + ' 次文件更新请求。\n';
+                        feedback.scrollTop = feedback.scrollHeight;
+                    }
+                };
+                xhr.send("new-data=" + encodeURIComponent(new_data));
+            }
+
+            document.addEventListener('keydown', function (event) {
+                if ((event.ctrlKey || event.metaKey) && event.key == 's') {
+                    event.preventDefault();
+                    hljs.highlightAll();
+                    update_param();
+                }
+            });
+        }
+
+        // var source = new EventSource('/edit-param/poll-log');
+        // source.onmessage = function (event) {
+        //     var feedback = document.getElementById("feedback-log");
+        //     feedback.value += event.data + '\n';
+        //     feedback.scrollTop = feedback.scrollHeight;
+        // }
+    </script>
+
+</body>
+
+</html>

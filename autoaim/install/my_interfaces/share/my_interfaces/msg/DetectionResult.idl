@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interfaces/msg/DetectionResult.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "my_interfaces/msg/DetectedArmor.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module my_interfaces {
+  module msg {
+    struct DetectionResult {
+      sensor_msgs::msg::Image img;
+
+      geometry_msgs::msg::Quaternion q;
+
+      sequence<my_interfaces::msg::DetectedArmor> armors;
+    };
+  };
+};

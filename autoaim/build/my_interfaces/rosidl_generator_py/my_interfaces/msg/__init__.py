@@ -1,0 +1,15 @@
+from my_interfaces.msg._aim_shoot_msg_board2_pc import AimShootMsgBoard2PC  # noqa: F401
+from my_interfaces.msg._aim_shoot_msg_pc2_board import AimShootMsgPC2Board  # noqa: F401
+from my_interfaces.msg._d_pack_identifier import DPackIdentifier  # noqa: F401
+from my_interfaces.msg._detected_armor import DetectedArmor  # noqa: F401
+from my_interfaces.msg._detection_result import DetectionResult  # noqa: F401
+from my_interfaces.msg._game_status_msg_board2_pc import GameStatusMsgBoard2PC  # noqa: F401
+from my_interfaces.msg._game_status_pc2_board import GameStatusPC2Board  # noqa: F401
+from my_interfaces.msg._general_msg_board2_pc import GeneralMsgBoard2PC  # noqa: F401
+from my_interfaces.msg._general_msg_pc2_board import GeneralMsgPC2Board  # noqa: F401
+from my_interfaces.msg._navigation_board2_pc import NavigationBoard2PC  # noqa: F401
+from my_interfaces.msg._navigation_pc2_board import NavigationPC2Board  # noqa: F401
+from my_interfaces.msg._pc_work_mode import PCWorkMode  # noqa: F401
+from my_interfaces.msg._reload_flag import ReloadFlag  # noqa: F401
+from my_interfaces.msg._robot_cmd import RobotCmd  # noqa: F401
+from my_interfaces.msg._robot_status import RobotStatus  # noqa: F401

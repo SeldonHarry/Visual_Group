@@ -1,0 +1,47 @@
+[ 50%] Built target fast_record_node
+[ 75%] [32mBuilding CXX object CMakeFiles/fast_record.dir/src/record.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/camera_subscriber.hpp:36[m[K,
+                 from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:23[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:[m[K In member function ‘[01m[Kvoid recorder::RecorderNode::init_node()[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:108:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::chrono::duration<long int>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  108 |         RCLCPP_WARN(this->get_logger(), [01;35m[K"Use dafault duraiton: %d ."[m[K, [32m[KRECORD_DURATION[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Kstd::chrono::duration<long int>[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:108:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  108 |         RCLCPP_WARN(this->get_logger(), "Use dafault duraiton: [01;36m[K%d[m[K .", RECORD_DURATION);
+      |                                                                [01;36m[K~^[m[K
+      |                                                                 [01;36m[K|[m[K
+      |                                                                 [01;36m[Kint[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:[m[K In member function ‘[01m[Kvoid recorder::RecorderNode::img_subcallback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr, sensor_msgs::msg::CameraInfo_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/fast_record/src/record.cpp:163:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcam_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  163 |     [01;35m[Kconst sensor_msgs::msg::CameraInfo::ConstSharedPtr cam_info[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libfast_record.so[0m
+[100%] Built target fast_record
+-- Install configuration: ""
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/lib/libfast_record.so
+-- Set runtime path of "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/lib/libfast_record.so" to ""
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/lib/fast_record/fast_record_node
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/launch
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/launch/launch_record.py
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/ament_index/resource_index/package_run_dependencies/fast_record
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/ament_index/resource_index/parent_prefix_path/fast_record
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/environment/ament_prefix_path.sh
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/environment/path.sh
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/environment/path.dsv
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/local_setup.bash
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/local_setup.sh
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/local_setup.zsh
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/local_setup.dsv
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/package.dsv
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/ament_index/resource_index/packages/fast_record
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/ament_index/resource_index/rclcpp_components/fast_record
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/cmake/fast_recordConfig.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/cmake/fast_recordConfig-version.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/fast_record/share/fast_record/package.xml

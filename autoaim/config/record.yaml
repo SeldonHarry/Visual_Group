@@ -1,0 +1,4 @@
+/fast_record:
+  ros__parameters:
+   storage_path: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/local_storage/
+   record_interval: 20

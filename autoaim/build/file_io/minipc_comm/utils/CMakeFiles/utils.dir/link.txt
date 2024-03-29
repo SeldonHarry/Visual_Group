@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutils.a CMakeFiles/utils.dir/connect.cpp.o CMakeFiles/utils.dir/crc.cpp.o CMakeFiles/utils.dir/fifo_buffer.cpp.o
+/usr/bin/ranlib libutils.a

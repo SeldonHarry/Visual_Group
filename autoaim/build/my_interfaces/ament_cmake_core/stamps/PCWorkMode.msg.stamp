@@ -1,0 +1,14 @@
+# MINIPC WORK MODE
+uint8 IDLE=0x00
+
+uint8 AUTOAIM=0x01
+
+uint8 ENERGY=0x02
+
+uint8 ENERGY_DISTURB=0x03
+
+uint8 NAVIGATION=0x04
+
+uint8 DECISION=0x05
+
+uint8 mode

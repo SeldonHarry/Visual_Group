@@ -1,0 +1,20 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45[m[K,
+                 from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/autoaim/armor_detector_node/src/armor_detector_node.hpp:13[m[K,
+                 from [01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/autoaim/armor_detector_node/src/armor_detector_node.cpp:1[m[K:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/autoaim/armor_detector_node/src/armor_detector_node.cpp:[m[K In member function ‘[01m[Kvoid detector::DetectorNode::run_detector_once()[m[K’:
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/autoaim/armor_detector_node/src/armor_detector_node.cpp:101:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<my_interfaces::msg::DetectedArmor_<std::allocator<void> >, std::allocator<my_interfaces::msg::DetectedArmor_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  101 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"detect frame successfully! fps: %d, armor num: %d"[m[K,fps,[32m[Kdetected_armor_.size()[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                     [32m[K|[m[K
+      |                                                                                                                     [32m[Kstd::vector<my_interfaces::msg::DetectedArmor_<std::allocator<void> >, std::allocator<my_interfaces::msg::DetectedArmor_<std::allocator<void> > > >::size_type {aka long unsigned int}[m[K
+[01m[K/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/src/autoaim/armor_detector_node/src/armor_detector_node.cpp:101:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  101 |         RCLCPP_INFO(this->get_logger(), "detect frame successfully! fps: %d, armor num: [01;36m[K%d[m[K",fps,detected_armor_.size());
+      |                                                                                         [01;36m[K~^[m[K
+      |                                                                                          [01;36m[K|[m[K
+      |                                                                                          [01;36m[Kint[m[K
+      |                                                                                         [32m[K%ld[m[K
+lto-wrapper: warning: using serial compilation of 8 LTRANS jobs

@@ -1,0 +1,11 @@
+source;share/fast_record/hook/cmake_prefix_path.ps1
+source;share/fast_record/hook/cmake_prefix_path.dsv
+source;share/fast_record/hook/cmake_prefix_path.sh
+source;share/fast_record/hook/ld_library_path_lib.ps1
+source;share/fast_record/hook/ld_library_path_lib.dsv
+source;share/fast_record/hook/ld_library_path_lib.sh
+source;share/fast_record/local_setup.bash
+source;share/fast_record/local_setup.dsv
+source;share/fast_record/local_setup.ps1
+source;share/fast_record/local_setup.sh
+source;share/fast_record/local_setup.zsh

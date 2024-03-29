@@ -1,0 +1,53 @@
+-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/build/ros2addon
+[ 20%] [32mBuilding CXX object CMakeFiles/ros2addon.dir/src/coord_converter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ros2addon.dir/src/cv_drawer.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ros2addon.dir/src/debugger.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ros2addon.dir/src/type_convert.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2addon.so[0m
+[100%] Built target ros2addon
+-- Install configuration: ""
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/debugger.hpp
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/param
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/param/param.hpp
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/type_convert.hpp
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/coord_convert
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/coord_convert/coord_converter.hpp
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/include/cv_drawer.hpp
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/environment/library_path.sh
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/environment/library_path.dsv
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/lib/libros2addon.so
+-- Set runtime path of "/home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/lib/libros2addon.so" to ""
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ament_index/resource_index/package_run_dependencies/ros2addon
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ament_index/resource_index/parent_prefix_path/ros2addon
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/environment/ament_prefix_path.sh
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/environment/path.sh
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/environment/path.dsv
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/local_setup.bash
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/local_setup.sh
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/local_setup.zsh
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/local_setup.dsv
+-- Installing: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/package.dsv
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ament_index/resource_index/packages/ros2addon
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/cmake/ros2addonConfig.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/cmake/ros2addonConfig-version.cmake
+-- Up-to-date: /home/seldon/Documents/gitrepo/rm.cv.std.ros2_transplant/install/ros2addon/share/ros2addon/package.xml

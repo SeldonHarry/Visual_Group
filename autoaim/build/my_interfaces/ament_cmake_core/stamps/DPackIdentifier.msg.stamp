@@ -1,0 +1,20 @@
+# Common Header for Frame Identity
+uint8 MIMIPC_COMM_MAX_SIZE=64
+
+uint8 MINIPC_COMM_SOF=0x23
+
+# DATA TRANSMIT DIRECTION
+uint8 PC2BOARD=0x00
+
+uint8 BOARD2PC=0x10
+
+# DATA PACK IDENTIFIER
+uint8 GENERAL=0x00
+
+uint8 AIM_SHOOT=0x01
+
+uint8 NAVIGATION=0x02
+
+uint8 GAME_STATUS=0x03
+
+uint8 frame_id

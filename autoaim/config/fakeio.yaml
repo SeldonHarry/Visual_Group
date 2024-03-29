@@ -1,0 +1,6 @@
+/fakeio_node:
+  ros__parameters:
+   pub_interval: 20 # in ms
+   camera_name: camera_right
+   imu_path: assets/blue.txt
+   video_path: assets/blue_pr2.mp4

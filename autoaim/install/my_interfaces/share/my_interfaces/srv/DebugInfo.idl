@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/DebugInfo.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    struct DebugInfo_Request {
+      string node_name;
+
+      string key;
+
+      string value;
+    };
+    struct DebugInfo_Response {
+      boolean ok;
+    };
+  };
+};

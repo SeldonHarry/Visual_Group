@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interfaces/msg/AimShootMsgPC2Board.msg
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "自瞄数据包，视觉->电控，id=0x01" "\n"
+      "C++中float就是此处的float32")
+    struct AimShootMsgPC2Board {
+      @verbatim (language="comment", text=
+        "deg")
+      float yaw_angle;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float pitch_angle;
+
+      @verbatim (language="comment", text=
+        "dps")
+      float yaw_speed;
+
+      @verbatim (language="comment", text=
+        "dps")
+      float pitch_speed;
+
+      @verbatim (language="comment", text=
+        "dps")
+      float dist;
+
+      @verbatim (language="comment", text=
+        "发射标志")
+      uint8 shoot_flag;
+
+      @verbatim (language="comment", text=
+        "发射id")
+      uint8 shoot_id;
+
+      @verbatim (language="comment", text=
+        "敌方id")
+      uint8 enemy_id;
+    };
+  };
+};
