@@ -1,3 +1,0 @@
-[console_scripts]
-web_debugger = web_debugger.web_debugger:main
-

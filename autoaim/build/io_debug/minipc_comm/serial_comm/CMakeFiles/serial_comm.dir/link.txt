@@ -1,2 +1,0 @@
-/usr/bin/ar qc libserial_comm.a CMakeFiles/serial_comm.dir/src/connect.cpp.o CMakeFiles/serial_comm.dir/src/crc.cpp.o CMakeFiles/serial_comm.dir/src/fifo_buffer.cpp.o
-/usr/bin/ranlib libserial_comm.a

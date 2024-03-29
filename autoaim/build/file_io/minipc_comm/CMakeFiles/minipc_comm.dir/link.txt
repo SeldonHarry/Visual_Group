@@ -1,2 +1,0 @@
-/usr/bin/ar qc libminipc_comm.a CMakeFiles/minipc_comm.dir/minipc_comm.cpp.o CMakeFiles/minipc_comm.dir/robot_comm_middleware.cpp.o
-/usr/bin/ranlib libminipc_comm.a

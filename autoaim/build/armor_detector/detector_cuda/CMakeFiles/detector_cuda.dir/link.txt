@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdetector_cuda.a CMakeFiles/detector_cuda.dir/TRTModule.cpp.o CMakeFiles/detector_cuda.dir/usr/src/tensorrt/samples/common/logger.cpp.o
-/usr/bin/ranlib libdetector_cuda.a
